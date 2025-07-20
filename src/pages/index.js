@@ -120,23 +120,43 @@ With 4+ years at Nokia Solutions and Networks, I’ve been in the trenches build
 
          
       </main>
-          <section className="w-full mt-16 mb-24 flex flex-col items-center justify-center gap-6 text-center">
+         import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa'; // Import icons at the top
+
+...
+
+<section className="w-full mt-16 mb-24 flex flex-col items-center justify-center gap-6 text-center">
   <h2 className="text-2xl font-bold">Follow Me On</h2>
-  <div className="flex gap-10">
-    <Link href="https://youtube.com/@mrinalbanchhor?si=XpDDs265WnFsAjJi" target="_blank" className="flex items-center gap-2 text-red-600 hover:underline text-lg font-semibold hover:scale-105 transition-transform">
+  <div className="flex flex-wrap justify-center items-center gap-8 sm:flex-col">
+    
+    <Link
+      href="https://youtube.com/@mrinalbanchhor?si=XpDDs265WnFsAjJi"
+      target="_blank"
+      className="flex items-center gap-2 text-red-600 text-lg font-medium hover:underline"
+    >
       <FaYoutube className="text-2xl" />
       YouTube
     </Link>
-    <Link href="https://www.instagram.com/mrinalbanchhor/profilecard/?igsh=MThmcTd6MDZ2YjN4dQ==" target="_blank" className="flex items-center gap-2 text-pink-600 hover:underline text-lg font-semibold hover:scale-105 transition-transform">
+
+    <Link
+      href="https://www.instagram.com/mrinalbanchhor/profilecard/?igsh=MThmcTd6MDZ2YjN4dQ=="
+      target="_blank"
+      className="flex items-center gap-2 text-pink-600 text-lg font-medium hover:underline"
+    >
       <FaInstagram className="text-2xl" />
       Instagram
     </Link>
-    <Link href="https://www.facebook.com/profile.php?id=61578242469081" target="_blank" className="flex items-center gap-2 text-blue-600 hover:underline text-lg font-semibold hover:scale-105 transition-transform">
+
+    <Link
+      href="https://www.facebook.com/profile.php?id=61578242469081"
+      target="_blank"
+      className="flex items-center gap-2 text-blue-600 text-lg font-medium hover:underline"
+    >
       <FaFacebook className="text-2xl" />
       Facebook
     </Link>
   </div>
 </section>
+
 
     </>
   );
