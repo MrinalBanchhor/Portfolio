@@ -43,7 +43,7 @@ const projectsData = [
     name: "Portfolio Management Application | Spring Boot, Microservices, Docker, Kubernetes",
     image:
       "https://res.cloudinary.com/dashfqimv/image/upload/v1753040372/port_lpgrta.png",
-    deployed_url: "https://ieeexplore.ieee.org/abstract/document/9456263",
+    deployed_url: "https://github.com/MrinalBanchhor/Portfolio",
     github_url: "",
     // category: ["javascript", "react"],
     created_at: "2022-10-08T19:40:22.724Z",

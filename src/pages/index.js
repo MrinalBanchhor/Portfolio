@@ -120,7 +120,7 @@ With 4+ years at Nokia Solutions and Networks, I’ve been in the trenches build
 
          
       </main>
-         import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa'; // Import icons at the top
+       
 
 ...
 
