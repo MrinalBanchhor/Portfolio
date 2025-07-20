@@ -32,20 +32,20 @@ const Skills = () => {
            p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
-          Web
+          BACK END 
         </motion.div>
-        <Skill name="HTML" x="-20vw" y="2vw" />
-        <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="20vw" y="6vw" />
-        <Skill name="ReactJs" x="0vw" y="12vw" />
-        <Skill name="NextJs" x="-20vw" y="-15vw" />
-        <Skill name="NodeJs" x="15vw" y="-12vw" />
+        <Skill name="JAVA" x="-20vw" y="2vw" />
+        <Skill name="SPRING BOOT" x="-5vw" y="-10vw" />
+        <Skill name="JUNIT" x="20vw" y="6vw" />
+        <Skill name="PYTHON" x="0vw" y="12vw" />
+        <Skill name="DOCKER" x="-20vw" y="-15vw" />
+        <Skill name="KUBERNETES" x="15vw" y="-12vw" />
         <Skill name="SQL" x="-35vw" y="-15vw" />
-        <Skill name="MongoDB" x="32vw" y="-5vw" />
-        <Skill name="Nightwatch" x="0vw" y="-20vw" />
-        <Skill name="Mocha & Chai" x="-25vw" y="18vw" />
-        <Skill name="TailwindCSS" x="28vw" y="18vw" />
-        <Skill name="PHP" x="28vw" y="-18vw" />
+        <Skill name="POSTGRES" x="32vw" y="-5vw" />
+        <Skill name="REST API" x="0vw" y="-20vw" />
+        <Skill name="AUTOMATION" x="-25vw" y="18vw" />
+        <Skill name="TENSORFLOW" x="28vw" y="18vw" />
+        <Skill name="KERAS" x="28vw" y="-18vw" />
       </div>
     </>
   );

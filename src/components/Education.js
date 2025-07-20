@@ -4,35 +4,36 @@ import { LiIcons } from "./LiIcons";
 
 const educationData = [
   {
-    type: "Bachlor of Engineering in Computer Science",
-    time: "2014-2018",
-    place: "CSVTU",
-    info: "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and development in PHP and Android.",
-  },
-  {
     type: "M. Tech in IT (Specialization in Machine Learning)",
     time: "2019-2021",
     place: "NIT Raipur",
     info: "Certified in MERN stack by Infosys, actively applying expertise in developing full-stack web applications with MongoDB / SQL, Express, React, and Node.js.",
   },
   {
-    type: "Portfolio Management Application | Spring Boot, Microservices, Docker, Kubernetes",
-    time: "2021-2022",
-    place: "Nokia",
-    info: "Built an Application using Spring Boot and microservices architecture for modularity and scalability Containerized services with Docker and orchestrated deployments via Kubernetes.",
+    type: "Bachlor of Engineering in Computer Science",
+    time: "2014-2018",
+    place: "CSVTU",
+    info: "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and development in PHP and Android.",
   },
-  {
-    type: "NOM (NMS) | Docker, Kubernetes, microservices",
-    time: "2021-2022",
-    place: "Nokia",
-    info: "Created and refined microservices for Nokia Network Operations Master (NOM), enabling scalable network operations. Containerized apps with Docker and managed microservice pods through Kubernetes for efficient deployment and resource management.",
-  },
-  {
-    type: "NetAct (NMS) | JAVA, Spring Boot, Robot Framework",
-    time: "2023-Present",
-    place: "Nokia",
-    info: "• Contributed to Nokia’s legacy Network Management System (NMS), NetAct, with a primary focus on the Performance Management and Mediation components. Enhanced network operations by implementing system performance enhancements, resulting in improved efficiency and scalability for deployments.",
-  },
+  
+  // {
+  //   type: "Portfolio Management Application | Spring Boot, Microservices, Docker, Kubernetes",
+  //   time: "2021-2022",
+  //   place: "Nokia",
+  //   info: "Built an Application using Spring Boot and microservices architecture for modularity and scalability Containerized services with Docker and orchestrated deployments via Kubernetes.",
+  // },
+  // {
+  //   type: "NOM (NMS) | Docker, Kubernetes, microservices",
+  //   time: "2021-2022",
+  //   place: "Nokia",
+  //   info: "Created and refined microservices for Nokia Network Operations Master (NOM), enabling scalable network operations. Containerized apps with Docker and managed microservice pods through Kubernetes for efficient deployment and resource management.",
+  // },
+  // {
+  //   type: "NetAct (NMS) | JAVA, Spring Boot, Robot Framework",
+  //   time: "2023-Present",
+  //   place: "Nokia",
+  //   info: "• Contributed to Nokia’s legacy Network Management System (NMS), NetAct, with a primary focus on the Performance Management and Mediation components. Enhanced network operations by implementing system performance enhancements, resulting in improved efficiency and scalability for deployments.",
+  // },
 
 ];
 

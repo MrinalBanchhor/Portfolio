@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaYoutube, FaInstagram, FaFacebook } from "react-icons/fa";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
@@ -88,36 +89,36 @@ const Navbar = () => {
         <nav>
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
-          <CustomLink href="/projects" title="Projects" className="mx-4" />
+          <CustomLink href="/projects" title="Research & Projects" className="mx-4" />
           {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com/AncoorBanerjee"
+            href="https://youtube.com/@mrinalbanchhor?si=XpDDs265WnFsAjJi"
             target={"_blank"}
             whileHover={{ y: -2 }}
-            className="w-6 mr-3"
+            className="w-6 mx-3 flex items-center text-red-600 hover:underline text-2xl font-semibold hover:scale-105 transition-transform"
             whileTap={{ scale: 0.9 }}
           >
-            <TwitterIcon />
+            <FaYoutube/>
           </motion.a>
           <motion.a
-            href="https://github.com/ancoor"
+            href="https://www.instagram.com/mrinalbanchhor/profilecard/?igsh=MThmcTd6MDZ2YjN4dQ=="
             target={"_blank"}
             whileHover={{ y: -2 }}
-            className="w-6 mx-3"
+            className="w-6 mx-3 flex items-center gap-2 text-pink-600 hover:underline text-2xl font-semibold hover:scale-105 transition-transform"
             whileTap={{ scale: 0.9 }}
           >
-            <GithubIcon />
+            <FaInstagram />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/ancoor/"
+            href="https://www.facebook.com/profile.php?id=61578242469081"
             target={"_blank"}
             whileHover={{ y: -2 }}
-            className="w-6 mx-3"
+            className="w-6 mx-3 flex items-center gap-2 text-blue-600 hover:underline text-2xl font-semibold hover:scale-105 transition-transform"
             whileTap={{ scale: 0.9 }}
           >
-            <LinkedInIcon />
+            <FaFacebook />
           </motion.a>
          {/*  <motion.a
             href="https://twitter.com"
@@ -183,32 +184,32 @@ const Navbar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com/AncoorBanerjee"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              className="w-6 mr-3 sm:mx-1"
-              whileTap={{ scale: 0.9 }}
-            >
-              <TwitterIcon />
-            </motion.a>
-            <motion.a
-              href="https://github.com/ancoor"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
-              whileTap={{ scale: 0.9 }}
-            >
-              <GithubIcon />
-            </motion.a>
-            <motion.a
-              href="https://www.linkedin.com/in/ancoor/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              className="w-6 mx-3 sm:mx-1"
-              whileTap={{ scale: 0.9 }}
-            >
-              <LinkedInIcon />
-            </motion.a>
+            href="https://youtube.com/@mrinalbanchhor?si=XpDDs265WnFsAjJi"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            className="w-6 mx-3 flex items-center text-red-600 hover:underline text-2xl font-semibold hover:scale-105 transition-transform"
+            whileTap={{ scale: 0.9 }}
+          >
+            <FaYoutube/>
+          </motion.a>
+          <motion.a
+            href="https://www.instagram.com/mrinalbanchhor/profilecard/?igsh=MThmcTd6MDZ2YjN4dQ=="
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            className="w-6 mx-3 flex items-center gap-2 text-pink-600 hover:underline text-2xl font-semibold hover:scale-105 transition-transform"
+            whileTap={{ scale: 0.9 }}
+          >
+            <FaInstagram />
+          </motion.a>
+          <motion.a
+            href="https://www.facebook.com/profile.php?id=61578242469081"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            className="w-6 mx-3 flex items-center gap-2 text-blue-600 hover:underline text-2xl font-semibold hover:scale-105 transition-transform"
+            whileTap={{ scale: 0.9 }}
+          >
+            <FaFacebook />
+          </motion.a>
             {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}

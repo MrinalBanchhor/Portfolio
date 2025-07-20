@@ -11,7 +11,7 @@ const Footer = () => {
           Build with <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>{" "}
           by&nbsp;
           <Link
-            href="https://ancoor-portfolio.netlify.app/"
+            href="https://mrinalbanchhor.vercel.app/"
             className="underline underline-offset-2"
             target="_blank"
           >

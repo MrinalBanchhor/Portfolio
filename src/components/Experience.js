@@ -6,25 +6,25 @@ const experienceData = [
   {
     postion: "Software Engineer",
     company: "NOKIA",
-    time: "Sep 2021 - Present",
+    time: "2021 - Present",
     address: "Bengaluru, India",
     work: " Engineered high-performance backend systems using Java and Spring Boot, leveraging 4 years of expertise in backend development to deliver scalable and efficient solutions"
-  }
-  // {
-  //   postion: "Software Developer",
-  //   company: "Collabera",
-  //   time: "November 2021 - February 2023",
-  //   address: "Remote, India",
-  //   work: "Developed automated unit test cases and implemented a microservices-based architecture in Node.js to deliver eﬃcient RestFul APIs for Infosys Client."
-  // },
-  // {
-  //   postion: "Freelancer",
-  //   company: "Anbias Technologies",
-  //   time: "August 2020 - November 2021",
-  //   address: "Raipur, Chhattisgarh",
-  //   companyLink: "https://anbias.com/",
-  //   work: "I eﬃciently created highly responsive websites tailored to meet clients' needs while working with limited resources and tight deadlines. I ensure optimal website performance by compressing media ﬁles and minimizing code to signiﬁcantly reduce loading times.",
-  // },
+  },
+  {
+    postion: "NOM (NMS) | Docker, Kubernetes, microservices",
+    company: "NOKIA",
+    time: "November 2021 - December 2022",
+    address: "Remote, India",
+    work: "Developed automated unit test cases and implemented a microservices-based architecture in Node.js to deliver eﬃcient RestFul APIs for Infosys Client."
+  },
+  {
+    postion: "NetAct (NMS) | JAVA, Spring Boot, Robot Framework",
+    company: "NOKIA",
+    time: "February 2020 - Present",
+    address: "Raipur, Chhattisgarh",
+    companyLink: "https://anbias.com/",
+    work: "I eﬃciently created highly responsive websites tailored to meet clients' needs while working with limited resources and tight deadlines. I ensure optimal website performance by compressing media ﬁles and minimizing code to signiﬁcantly reduce loading times.",
+  },
   // {
   //   postion: "Full Stack Developer",
   //   company: "Crescive Solutions",

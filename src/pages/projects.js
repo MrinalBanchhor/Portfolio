@@ -1,5 +1,7 @@
 import AnimatedText from "@/components/AnimatedText";
 import { GithubIcon } from "@/components/Icons";
+import diabetes from "../../public/images/profile/diabetes.png";
+import survey from "../../public/images/profile/survey.png";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
@@ -15,7 +17,7 @@ const projectsData = [
     user_id: 1,
     name: "Comparative study of Ensemble learning Algorithms on Early Stage Diabetes Risk Prediction",
     image:
-      "http://res.cloudinary.com/dxf99yycj/image/upload/v1665859809/wjsxkiduayz2lcfrqkk5.png",
+      "https://res.cloudinary.com/dashfqimv/image/upload/v1753040061/diabetes_dqebri.png",
     deployed_url: "https://ieeexplore.ieee.org/abstract/document/9456263",
     github_url: "",
     created_at: "2022-10-08T19:47:31.168Z",
@@ -27,27 +29,27 @@ const projectsData = [
     user_id: 1,
     name: "A Survey on Visual Question Answering",
     image:
-      "http://res.cloudinary.com/dxf99yycj/image/upload/v1665858978/d1lwlyecuozl0h3vnpzt.png",
+      "https://res.cloudinary.com/dashfqimv/image/upload/v1753040209/survey_rolk6c.png",
     deployed_url: "https://ieeexplore.ieee.org/abstract/document/9587797",
     github_url: "",
     // category: ["javascript", "node", "react", "mongodb"],
     created_at: "2022-10-08T19:43:13.567Z",
     updated_at: "2022-10-15T18:36:19.201Z",
-    __v: 0,}
-  // },
-  // {
-  //   _id: "d966d380-af92-4781-9094-ad80205a0aa4",
-  //   user_id: 1,
-  //   name: "Expense Tracker in React",
-  //   image:
-  //     "http://res.cloudinary.com/dxf99yycj/image/upload/v1665859015/de0auif2utquqkm3r2nb.png",
-  //   deployed_url: "https://ieeexplore.ieee.org/abstract/document/9456263",
-  //   github_url: "https://github.com/ancoor/expense-management",
-  //   category: ["javascript", "react"],
-  //   created_at: "2022-10-08T19:40:22.724Z",
-  //   updated_at: "2022-10-15T18:36:56.579Z",
-  //   __v: 0,
-  // },
+    __v: 0,
+  },
+  {
+    _id: "d966d380-af92-4781-9094-ad80205a0aa4",
+    user_id: 1,
+    name: "Portfolio Management Application | Spring Boot, Microservices, Docker, Kubernetes",
+    image:
+      "https://res.cloudinary.com/dashfqimv/image/upload/v1753040372/port_lpgrta.png",
+    deployed_url: "https://ieeexplore.ieee.org/abstract/document/9456263",
+    github_url: "",
+    // category: ["javascript", "react"],
+    created_at: "2022-10-08T19:40:22.724Z",
+    updated_at: "2022-10-15T18:36:56.579Z",
+    __v: 0,
+  }
   // {
   //   _id: "7a20bb5b-6342-49bb-b26a-0d3ad0ec2608",
   //   user_id: 1,
@@ -80,7 +82,7 @@ const projectsData = [
   //   name: "Chat Application in React and SocketIO",
   //   image:
   //     "http://res.cloudinary.com/dxf99yycj/image/upload/v1665859077/jqsxnrfmqam6qiixekrp.png",
-  //   deployed_url: "https://react-chat-ancoor.netlify.app/",
+  //   deployed_url: https://mrinalbanchhor.vercel.app/",
   //   github_url: "",
   //   category: ["javascript", "react"],
   //   created_at: "2022-10-08T19:34:03.849Z",
@@ -222,7 +224,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Ancoor Banerjee | Projects Page</title>
+        <title>Mrinal Banchhor | Projects Page</title>
         <meta
           name="description"
           content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with  expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
@@ -232,7 +234,7 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Research Work & Projects"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
@@ -258,7 +260,7 @@ const projects = () => {
               />
             </div> */}
 
-            {/* <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-12">
               <Project
                 title={projectsData[2].name}
                 link={projectsData[2].deployed_url}
@@ -277,6 +279,19 @@ const projects = () => {
                 github={projectsData[1].github_url}
                 type={[projectsData[1].category]}
                 image={projectsData[1].image}
+              />
+            </div>
+
+             <div className="col-span-12">
+              <FeaturedProject
+                title={projectsData[2].name}
+                summary={
+                  "A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                }
+                link={projectsData[2].deployed_url}
+                github={projectsData[2].github_url}
+                type={[projectsData[2].category]}
+                image={projectsData[2].image}
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">
